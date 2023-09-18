@@ -18,17 +18,17 @@ INSERT INTO hotel (name, address, rating, price) VALUES
                                                      ('Cascade', 'Canada 89', 4, 22.99),
                                                      ('Pino', 'Canada 38', 4, 99.42);
 
-insert into fly (origin_lat, origin_lng, destiny_lng, destiny_lat, origin_name, destiny_name, aero_line, price) VALUES
-                                                                                                                    (99.9999, 88.8888, 11.1111, 22.2222, 'Mexico', 'Grecia', 'aero_gold', 43.00),
-                                                                                                                    (11.1111, 22.2222, 99.9999, 88.8888, 'Grecia', 'Mexico','aero_gold', 33.33),
-                                                                                                                    (99.9999, 88.8888, 88.8888, 77.7777, 'Mexico', 'Iceland', 'aero_gold', 48.70),
-                                                                                                                    (99.9999, 88.8888, 88.8888, 77.7777, 'Iceland', 'Mexico', 'aero_gold', 12.99),
-                                                                                                                    (88.8888, 77.7777,  11.1111, 22.2222, 'Iceland', 'Gracia', 'aero_gold', 85.98),
-                                                                                                                    (11.1111, 22.2222, 88.8888, 77.7777, 'Gracia', 'Iceland', 'aero_gold', 29.99),
+insert into fly (origin_lat, origin_lng, destiny_lng, destiny_lat, origin_name, destiny_name, airline, price) VALUES
+                                                                                                                    (99.9999, 88.8888, 11.1111, 22.2222, 'Mexico', 'Grecia', 'air_gold', 43.00),
+                                                                                                                    (11.1111, 22.2222, 99.9999, 88.8888, 'Grecia', 'Mexico','air_gold', 33.33),
+                                                                                                                    (99.9999, 88.8888, 88.8888, 77.7777, 'Mexico', 'Iceland', 'air_gold', 48.70),
+                                                                                                                    (99.9999, 88.8888, 88.8888, 77.7777, 'Iceland', 'Mexico', 'air_gold', 12.99),
+                                                                                                                    (88.8888, 77.7777,  11.1111, 22.2222, 'Iceland', 'Gracia', 'air_gold', 85.98),
+                                                                                                                    (11.1111, 22.2222, 88.8888, 77.7777, 'Gracia', 'Iceland', 'air_gold', 29.99),
                                                                                                                     (99.9999, 88.8888, 11.1111, 22.2222, 'Mexico', 'Grecia', 'blue_sky', 25.65),
                                                                                                                     (11.1111, 22.2222, 99.9999, 88.8888, 'Grecia', 'Mexico', 'blue_sky', 12.99),
-                                                                                                                    (44.4444, 55.555,  11.1111, 22.2222, 'Canada', 'Mexico', 'aero_gold', 19.99),
-                                                                                                                    (11.1111, 22.2222, 44.4444, 55.5555, 'Mexico', 'Canada', 'aero_gold', 15.65),
+                                                                                                                    (44.4444, 55.555,  11.1111, 22.2222, 'Canada', 'Mexico', 'air_gold', 19.99),
+                                                                                                                    (11.1111, 22.2222, 44.4444, 55.5555, 'Mexico', 'Canada', 'air_gold', 15.65),
                                                                                                                     (99.9999, 88.8888, 88.8888, 77.7777, 'Mexico', 'Iceland', 'blue_sky', 42.99),
                                                                                                                     (99.9999, 88.8888, 88.8888, 77.7777, 'Iceland', 'Mexico', 'blue_sky', 21.54),
                                                                                                                     (88.8888, 77.7777,  11.1111, 22.2222, 'Iceland', 'Gracia', 'blue_sky', 12.00),
