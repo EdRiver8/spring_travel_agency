@@ -52,7 +52,7 @@ public class CustomerEntity {
     @OneToMany(
             mappedBy = "customer",
             cascade = CascadeType.ALL,
-            fetch = FetchType.EAGER,
+            fetch = FetchType.LAZY,
             orphanRemoval = true
     )
     private Set<TourEntity> tours;

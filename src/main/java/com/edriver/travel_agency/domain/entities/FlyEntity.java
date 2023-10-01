@@ -1,9 +1,8 @@
 package com.edriver.travel_agency.domain.entities;
 
+import com.edriver.travel_agency.util.enums.Airline;
 import jakarta.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.Fetch;
-import util.Airline;
 
 import java.math.BigDecimal;
 import java.util.Set;

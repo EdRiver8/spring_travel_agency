@@ -1,4 +1,4 @@
-package com.edriver.travel_agency.domain.repositories;
+package com.edriver.travel_agency.domain.repositories.jpa;
 
 import com.edriver.travel_agency.domain.entities.ReservationEntity;
 import org.springframework.data.repository.CrudRepository;
